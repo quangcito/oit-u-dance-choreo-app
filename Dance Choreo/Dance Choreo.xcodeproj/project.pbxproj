@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B1FFDBC2832AB5E00605E2A /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1FFDBB2832AB5E00605E2A /* SpotifyiOS.framework */; };
 		2B49632B2804D77F00510174 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B49632A2804D77F00510174 /* AppDelegate.swift */; };
 		2B49632D2804D77F00510174 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B49632C2804D77F00510174 /* SceneDelegate.swift */; };
 		2B49632F2804D77F00510174 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B49632E2804D77F00510174 /* ViewController.swift */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B1FFDBB2832AB5E00605E2A /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyiOS.framework; sourceTree = "<group>"; };
+		2B1FFDBD2832AD5500605E2A /* Dance Choreo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dance Choreo-Bridging-Header.h"; sourceTree = "<group>"; };
 		2B4963272804D77F00510174 /* Dance Choreo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dance Choreo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B49632A2804D77F00510174 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B49632C2804D77F00510174 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B1FFDBC2832AB5E00605E2A /* SpotifyiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +85,7 @@
 		2B49631E2804D77E00510174 = {
 			isa = PBXGroup;
 			children = (
+				2B1FFDBB2832AB5E00605E2A /* SpotifyiOS.framework */,
 				2B4963292804D77F00510174 /* Dance Choreo */,
 				2B4963432804D79100510174 /* Dance ChoreoTests */,
 				2B49634D2804D79200510174 /* Dance ChoreoUITests */,
@@ -102,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				2B49632A2804D77F00510174 /* AppDelegate.swift */,
+				2B1FFDBD2832AD5500605E2A /* Dance Choreo-Bridging-Header.h */,
 				2B49632C2804D77F00510174 /* SceneDelegate.swift */,
 				2B49632E2804D77F00510174 /* ViewController.swift */,
 				2B4963302804D77F00510174 /* Main.storyboard */,
@@ -442,6 +448,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 92B8B7PDDJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Dance Choreo/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -454,9 +464,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.quanguyendg.Dance-Choreo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Dance Choreo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -470,6 +482,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 92B8B7PDDJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Dance Choreo/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -482,9 +498,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.quanguyendg.Dance-Choreo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Dance Choreo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
