@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B1FFDBC2832AB5E00605E2A /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1FFDBB2832AB5E00605E2A /* SpotifyiOS.framework */; };
+		2B1FFDBF283363F400605E2A /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1FFDBB2832AB5E00605E2A /* SpotifyiOS.framework */; };
+		2B1FFDC52833667E00605E2A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B1FFDC42833667E00605E2A /* Info.plist */; };
 		2B49632B2804D77F00510174 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B49632A2804D77F00510174 /* AppDelegate.swift */; };
 		2B49632D2804D77F00510174 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B49632C2804D77F00510174 /* SceneDelegate.swift */; };
 		2B49632F2804D77F00510174 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B49632E2804D77F00510174 /* ViewController.swift */; };
@@ -39,8 +40,9 @@
 
 /* Begin PBXFileReference section */
 		2B1FFDBB2832AB5E00605E2A /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyiOS.framework; sourceTree = "<group>"; };
-		2B1FFDBD2832AD5500605E2A /* Dance Choreo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dance Choreo-Bridging-Header.h"; sourceTree = "<group>"; };
-		2B4963272804D77F00510174 /* Dance Choreo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dance Choreo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1FFDBE283363B600605E2A /* Dance-Choreo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dance-Choreo-Bridging-Header.h"; sourceTree = "<group>"; };
+		2B1FFDC42833667E00605E2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B4963272804D77F00510174 /* Dance-Choreo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dance-Choreo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B49632A2804D77F00510174 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B49632C2804D77F00510174 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2B49632E2804D77F00510174 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,10 +50,9 @@
 		2B4963342804D77F00510174 /* Dance_Choreo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dance_Choreo.xcdatamodel; sourceTree = "<group>"; };
 		2B4963362804D79000510174 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B4963392804D79000510174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2B49633B2804D79000510174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2B4963402804D79100510174 /* Dance ChoreoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dance ChoreoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4963402804D79100510174 /* Dance-ChoreoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dance-ChoreoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B4963442804D79100510174 /* Dance_ChoreoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dance_ChoreoTests.swift; sourceTree = "<group>"; };
-		2B49634A2804D79100510174 /* Dance ChoreoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dance ChoreoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B49634A2804D79100510174 /* Dance-ChoreoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dance-ChoreoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B49634E2804D79200510174 /* Dance_ChoreoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dance_ChoreoUITests.swift; sourceTree = "<group>"; };
 		2B4963502804D79200510174 /* Dance_ChoreoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dance_ChoreoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B1FFDBC2832AB5E00605E2A /* SpotifyiOS.framework in Frameworks */,
+				2B1FFDBF283363F400605E2A /* SpotifyiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,9 +87,9 @@
 			isa = PBXGroup;
 			children = (
 				2B1FFDBB2832AB5E00605E2A /* SpotifyiOS.framework */,
-				2B4963292804D77F00510174 /* Dance Choreo */,
-				2B4963432804D79100510174 /* Dance ChoreoTests */,
-				2B49634D2804D79200510174 /* Dance ChoreoUITests */,
+				2B4963292804D77F00510174 /* Dance-Choreo */,
+				2B4963432804D79100510174 /* Dance-ChoreoTests */,
+				2B49634D2804D79200510174 /* Dance-ChoreoUITests */,
 				2B4963282804D77F00510174 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,52 +97,52 @@
 		2B4963282804D77F00510174 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2B4963272804D77F00510174 /* Dance Choreo.app */,
-				2B4963402804D79100510174 /* Dance ChoreoTests.xctest */,
-				2B49634A2804D79100510174 /* Dance ChoreoUITests.xctest */,
+				2B4963272804D77F00510174 /* Dance-Choreo.app */,
+				2B4963402804D79100510174 /* Dance-ChoreoTests.xctest */,
+				2B49634A2804D79100510174 /* Dance-ChoreoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2B4963292804D77F00510174 /* Dance Choreo */ = {
+		2B4963292804D77F00510174 /* Dance-Choreo */ = {
 			isa = PBXGroup;
 			children = (
+				2B1FFDC42833667E00605E2A /* Info.plist */,
 				2B49632A2804D77F00510174 /* AppDelegate.swift */,
-				2B1FFDBD2832AD5500605E2A /* Dance Choreo-Bridging-Header.h */,
 				2B49632C2804D77F00510174 /* SceneDelegate.swift */,
 				2B49632E2804D77F00510174 /* ViewController.swift */,
 				2B4963302804D77F00510174 /* Main.storyboard */,
 				2B4963362804D79000510174 /* Assets.xcassets */,
 				2B4963382804D79000510174 /* LaunchScreen.storyboard */,
-				2B49633B2804D79000510174 /* Info.plist */,
 				2B4963332804D77F00510174 /* Dance_Choreo.xcdatamodeld */,
+				2B1FFDBE283363B600605E2A /* Dance-Choreo-Bridging-Header.h */,
 			);
-			path = "Dance Choreo";
+			path = "Dance-Choreo";
 			sourceTree = "<group>";
 		};
-		2B4963432804D79100510174 /* Dance ChoreoTests */ = {
+		2B4963432804D79100510174 /* Dance-ChoreoTests */ = {
 			isa = PBXGroup;
 			children = (
 				2B4963442804D79100510174 /* Dance_ChoreoTests.swift */,
 			);
-			path = "Dance ChoreoTests";
+			path = "Dance-ChoreoTests";
 			sourceTree = "<group>";
 		};
-		2B49634D2804D79200510174 /* Dance ChoreoUITests */ = {
+		2B49634D2804D79200510174 /* Dance-ChoreoUITests */ = {
 			isa = PBXGroup;
 			children = (
 				2B49634E2804D79200510174 /* Dance_ChoreoUITests.swift */,
 				2B4963502804D79200510174 /* Dance_ChoreoUITestsLaunchTests.swift */,
 			);
-			path = "Dance ChoreoUITests";
+			path = "Dance-ChoreoUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2B4963262804D77E00510174 /* Dance Choreo */ = {
+		2B4963262804D77E00510174 /* Dance-Choreo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B4963542804D79200510174 /* Build configuration list for PBXNativeTarget "Dance Choreo" */;
+			buildConfigurationList = 2B4963542804D79200510174 /* Build configuration list for PBXNativeTarget "Dance-Choreo" */;
 			buildPhases = (
 				2B4963232804D77E00510174 /* Sources */,
 				2B4963242804D77E00510174 /* Frameworks */,
@@ -151,14 +152,14 @@
 			);
 			dependencies = (
 			);
-			name = "Dance Choreo";
+			name = "Dance-Choreo";
 			productName = "Dance Choreo";
-			productReference = 2B4963272804D77F00510174 /* Dance Choreo.app */;
+			productReference = 2B4963272804D77F00510174 /* Dance-Choreo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2B49633F2804D79100510174 /* Dance ChoreoTests */ = {
+		2B49633F2804D79100510174 /* Dance-ChoreoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B4963572804D79200510174 /* Build configuration list for PBXNativeTarget "Dance ChoreoTests" */;
+			buildConfigurationList = 2B4963572804D79200510174 /* Build configuration list for PBXNativeTarget "Dance-ChoreoTests" */;
 			buildPhases = (
 				2B49633C2804D79100510174 /* Sources */,
 				2B49633D2804D79100510174 /* Frameworks */,
@@ -169,14 +170,14 @@
 			dependencies = (
 				2B4963422804D79100510174 /* PBXTargetDependency */,
 			);
-			name = "Dance ChoreoTests";
+			name = "Dance-ChoreoTests";
 			productName = "Dance ChoreoTests";
-			productReference = 2B4963402804D79100510174 /* Dance ChoreoTests.xctest */;
+			productReference = 2B4963402804D79100510174 /* Dance-ChoreoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2B4963492804D79100510174 /* Dance ChoreoUITests */ = {
+		2B4963492804D79100510174 /* Dance-ChoreoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2B49635A2804D79200510174 /* Build configuration list for PBXNativeTarget "Dance ChoreoUITests" */;
+			buildConfigurationList = 2B49635A2804D79200510174 /* Build configuration list for PBXNativeTarget "Dance-ChoreoUITests" */;
 			buildPhases = (
 				2B4963462804D79100510174 /* Sources */,
 				2B4963472804D79100510174 /* Frameworks */,
@@ -187,9 +188,9 @@
 			dependencies = (
 				2B49634C2804D79200510174 /* PBXTargetDependency */,
 			);
-			name = "Dance ChoreoUITests";
+			name = "Dance-ChoreoUITests";
 			productName = "Dance ChoreoUITests";
-			productReference = 2B49634A2804D79100510174 /* Dance ChoreoUITests.xctest */;
+			productReference = 2B49634A2804D79100510174 /* Dance-ChoreoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +216,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2B4963222804D77E00510174 /* Build configuration list for PBXProject "Dance Choreo" */;
+			buildConfigurationList = 2B4963222804D77E00510174 /* Build configuration list for PBXProject "Dance-Choreo" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -228,9 +229,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2B4963262804D77E00510174 /* Dance Choreo */,
-				2B49633F2804D79100510174 /* Dance ChoreoTests */,
-				2B4963492804D79100510174 /* Dance ChoreoUITests */,
+				2B4963262804D77E00510174 /* Dance-Choreo */,
+				2B49633F2804D79100510174 /* Dance-ChoreoTests */,
+				2B4963492804D79100510174 /* Dance-ChoreoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B1FFDC52833667E00605E2A /* Info.plist in Resources */,
 				2B49633A2804D79000510174 /* LaunchScreen.storyboard in Resources */,
 				2B4963372804D79000510174 /* Assets.xcassets in Resources */,
 				2B4963322804D77F00510174 /* Main.storyboard in Resources */,
@@ -296,12 +298,12 @@
 /* Begin PBXTargetDependency section */
 		2B4963422804D79100510174 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2B4963262804D77E00510174 /* Dance Choreo */;
+			target = 2B4963262804D77E00510174 /* Dance-Choreo */;
 			targetProxy = 2B4963412804D79100510174 /* PBXContainerItemProxy */;
 		};
 		2B49634C2804D79200510174 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2B4963262804D77E00510174 /* Dance Choreo */;
+			target = 2B4963262804D77E00510174 /* Dance-Choreo */;
 			targetProxy = 2B49634B2804D79200510174 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -448,6 +450,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 92B8B7PDDJ;
+				EXCLUDED_ARCHS = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -468,7 +471,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.quanguyendg.Dance-Choreo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Dance Choreo-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Dance-Choreo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -482,6 +485,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 92B8B7PDDJ;
+				EXCLUDED_ARCHS = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -502,7 +506,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.quanguyendg.Dance-Choreo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "Dance Choreo-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Dance-Choreo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -524,7 +528,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dance Choreo.app/Dance Choreo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dance-Choreo.app/Dance-Choreo";
 			};
 			name = Debug;
 		};
@@ -544,7 +548,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dance Choreo.app/Dance Choreo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dance-Choreo.app/Dance-Choreo";
 			};
 			name = Release;
 		};
@@ -587,7 +591,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2B4963222804D77E00510174 /* Build configuration list for PBXProject "Dance Choreo" */ = {
+		2B4963222804D77E00510174 /* Build configuration list for PBXProject "Dance-Choreo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B4963522804D79200510174 /* Debug */,
@@ -596,7 +600,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B4963542804D79200510174 /* Build configuration list for PBXNativeTarget "Dance Choreo" */ = {
+		2B4963542804D79200510174 /* Build configuration list for PBXNativeTarget "Dance-Choreo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B4963552804D79200510174 /* Debug */,
@@ -605,7 +609,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B4963572804D79200510174 /* Build configuration list for PBXNativeTarget "Dance ChoreoTests" */ = {
+		2B4963572804D79200510174 /* Build configuration list for PBXNativeTarget "Dance-ChoreoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B4963582804D79200510174 /* Debug */,
@@ -614,7 +618,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2B49635A2804D79200510174 /* Build configuration list for PBXNativeTarget "Dance ChoreoUITests" */ = {
+		2B49635A2804D79200510174 /* Build configuration list for PBXNativeTarget "Dance-ChoreoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2B49635B2804D79200510174 /* Debug */,
